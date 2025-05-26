@@ -1,0 +1,23 @@
+{
+  "name": "@teko/kit",
+  "version": "0.0.1",
+  "description": "Build kit for teko-web",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": "bin/cli.js",
+  "dependencies": {
+    "@google-cloud/storage": "^6.2.2",
+    "@rollup/plugin-image": "^2.1.1",
+    "@rollup/plugin-inject": "^4.0.4",
+    "@rollup/plugin-url": "^6.1.0",
+    "child-process-promise": "^2.2.1",
+    "esbuild": "^0.14.48",
+    "glob": "^7.2.0",
+    "react": "^18.0.0",
+    "rollup": "^2.47.0",
+    "rollup-plugin-esbuild": "^4.9.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.1.6"
+  }
+}
